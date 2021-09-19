@@ -1,0 +1,25 @@
+{
+    "name": "rudolfbruder/laravelshopper",
+    "description": "Hybrid laravel shopping cart combining session and database approach.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RudolfBruder\\LaravelShopper\\": "packages/rudolfbruder/laravelshopper"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rudolf Bruder",
+            "email": "rudolf.bruder@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RudolfBruder\\LaravelShopper\\LaravelShopperServiceProvider"
+            ]
+        }
+    }
+}
